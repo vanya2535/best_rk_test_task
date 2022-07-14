@@ -1,0 +1,15 @@
+@font-face {
+	src: url('@/assets/fonts/ubuntu/regular/Ubuntu-Regular.eot');
+	src: url('@/assets/fonts/ubuntu/regular/Ubuntu-Regular.woff') format('woff'), url('@/assets/fonts/ubuntu/regular/Ubuntu-Regular.ttf') format('truetype'), url('@/assets/fonts/ubuntu/regular/Ubuntu-Regular.svg') format('svg');
+	font-family: 'Ubuntu';
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('@/assets/fonts/ubuntu/medium/Ubuntu-Medium.eot');
+	src: url('@/assets/fonts/ubuntu/medium/Ubuntu-Medium.woff') format('woff'), url('@/assets/fonts/ubuntu/medium/Ubuntu-Medium.ttf') format('truetype'), url('@/assets/fonts/ubuntu/medium/Ubuntu-Medium.svg') format('svg');
+	font-family: 'Ubuntu';
+	font-weight: 500;
+	font-style: normal;
+}

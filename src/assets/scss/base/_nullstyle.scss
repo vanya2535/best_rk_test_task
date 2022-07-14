@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu';
+}
+
+html,
+body {
+  line-height: 1.5;
+  text-rendering: optimizespeed;
+  scroll-behavior: smooth;
+}
+
+button {
+  border: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background: none;
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button {
+  outline: none;
+}
+
+input::placeholder {
+  font: inherit;
+  font-family: inherit;
+  color: inherit;
+}
+
+html,
+body,
+#app {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+}
