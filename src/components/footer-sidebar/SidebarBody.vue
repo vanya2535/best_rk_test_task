@@ -293,10 +293,10 @@ export default {
   }
 
   &_top {
-    bottom: 90vh;
+    bottom: 80vh;
 
     .sidebar-body__cards {
-      max-height: calc(90vh - 122px);
+      max-height: calc(80vh - 122px);
     }
   }
 
@@ -328,7 +328,7 @@ export default {
     overflow-y: scroll;
     margin-top: 12px;
     padding-bottom: 10px;
-    max-height: calc(90vh - 122px);
+    max-height: calc(80vh - 122px);
     row-gap: 4px;
 
     &::-webkit-scrollbar {
